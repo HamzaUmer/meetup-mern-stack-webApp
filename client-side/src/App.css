@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Prompt&display=swap");
+
+a {
+  color: #ffe77aff !important;
+  font-family: "Prompt", sans-serif;
+}
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+}
+.mycard {
+  margin-top: 100px;
+}
+
+.auth-card {
+  padding: 10px;
+  text-align: center;
+  max-width: 380px;
+  margin: 10px auto;
+  font-family: "Grand Hotel", cursive;
+  color: #ffe77aff !important;
+}
+
+.btn {
+  color: #ffe77aff !important;
+  font-family: "Prompt", sans-serif;
+}
+
+.btn:hover {
+  color: #4caf50 !important;
+  background-color: #ffe77aff !important;
+}
+.btn1 {
+  color: #4caf50 !important;
+  font-family: "Prompt", sans-serif;
+  border: #ffe77aff;
+}
+
+.btn1:hover {
+  color: #ffe77aff !important;
+  background-color: #4caf50 !important;
+}
+.btn2 {
+  color: #ffe77aff !important;
+  font-family: "Prompt", sans-serif;
+  border: none;
+  margin: 8px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.btn2:hover {
+  color: #4caf50 !important;
+  background-color: #ffe77aff !important;
+}
+.btn3 {
+  color: #ffe77aff !important;
+  font-family: "Prompt", sans-serif;
+  border: none;
+  margin: 0 0 10px 20px;
+  padding: 7px;
+  font-size: 17px;
+}
+
+.btn3:hover {
+  color: #4caf50 !important;
+  background-color: #ffe77aff !important;
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #ffe77aff !important;
+  box-shadow: 0 1px 0 0 #ffe77aff !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #ffe77aff !important;
+  box-shadow: 0 1px 0 0 #ffe77aff !important;
+}
+.input-field[type="text"]:focus {
+  border-bottom: 1px solid #ffe77aff !important;
+  box-shadow: 0 1px 0 0 #ffe77aff !important;
+}
+
+.main-style {
+  max-width: 550px;
+  margin: 0px auto;
+}
+.Profile-style {
+  display: flex;
+  justify-content: space-around;
+  margin: 18px 0px;
+  font-family: "Prompt", sans-serif;
+  border-bottom: 1px solid grey;
+  color: #4caf50;
+}
+
+.img-style img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.content-style {
+  display: flex;
+  justify-content: space-between;
+  width: 108%;
+  font-family: "Prompt", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.gallery-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.home-card h5 {
+  font-family: "Prompt", sans-serif;
+  color: #4caf50;
+  cursor: pointer;
+}
+.card-content {
+  font-family: "Prompt", sans-serif;
+}
+.input-filled {
+  margin: 100px auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+.like,
+.unlike {
+  cursor: pointer;
+}
+
+.like:hover,
+.unlike:hover {
+  color: #4caf50;
+}
+.title-edit {
+  font-weight: 500;
+  font-size: 20px;
+}
+.img-style1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-bottom: -6px;
+  margin-right: 5px;
+}
+.img-style2 {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-bottom: -6px;
+  margin-right: 5px;
+}
+.edit-delete {
+  display: flex;
+  margin-top: 5px;
+  float: right;
+}
+.pass {
+  font-size: 15px;
+}
+.srch {
+  cursor: pointer;
+  color: #ffe77aff;
+}
+.modal {
+  color: black;
+  background-color: #ffe77aff;
+}
+.collection-item {
+  width: 100%;
+  background-color: #4caf50 !important;
+}
+.modal-footer {
+  background-color: #4caf50 !important;
+}
+.collection {
+  background-color: #4caf50 !important;
+}
+
+.btn-flat {
+  color: #ffe77aff !important;
+}
+@media only screen and (max-width: 560px) {
+  .content-style {
+    width: 90%;
+  }
+  .name-style h5 {
+    font-size: 17px;
+  }
+  .img-style img {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .content-style {
+    width: 97%;
+  }
+  .name-style h5 {
+    font-size: 15px;
+  }
+  .img-style img {
+    margin-right: 10px;
+  }
+  .nav-wrapper ul li {
+    font-size: 9px;
+    margin-left: -12px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .content-style h6 {
+    width: 90%;
+    font-size: 15px;
+    margin: 3px;
+  }
+  .name-style h5 {
+    font-size: 15px;
+  }
+  .img-style img {
+    margin-right: 10px;
+  }
+  .nav-wrapper {
+    font-size: 9px;
+  }
+  .nav-wrapper ul li {
+    font-size: 9px;
+    margin-left: -12px;
+  }
+  .btn2 {
+    border: none;
+    margin: 8px;
+    padding: 3px;
+    font-size: 15px;
+  }
+}
